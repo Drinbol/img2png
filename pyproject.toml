@@ -1,0 +1,9 @@
+[project]
+name = "img2png"
+version = "0.1.0"
+description = "图片批量转 PNG：按文件头识别真实格式，保留透明通道"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pillow>=12.2.0",
+]
